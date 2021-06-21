@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+ex45 --|> JSONSearch
+ex45 <|-- JSONSearch
+
+"exercise45_input.txt" --|> ex45
+
+"output.txt" <|-- ex45
+
+class JSONSearch {
+initializeFile()
+promptForOutputFile()
+}
+
+@enduml

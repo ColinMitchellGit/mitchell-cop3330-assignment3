@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+ex42 --|> ParseFile
+ex42 <|-- ParseFile
+
+"exercise45_input.txt" --|> ex42
+
+"output" <|-- ex42
+
+class ParseFile {
+printHeaders()
+printInfo()
+splitString()
+convertToList()
+}
+
+@enduml

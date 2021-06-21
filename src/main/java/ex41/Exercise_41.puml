@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+exercise41_input.txt --|> ex41
+
+NameSorter --|> ex41
+
+ex41 --|> exercise41_output.txt
+
+class NameSorter {
+readNames()
+outputNames()
+}
+
+@enduml

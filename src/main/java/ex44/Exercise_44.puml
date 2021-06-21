@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+ex44 --|> JSONSearch
+ex44 <|-- JSONSearch
+
+"User Input" --|> JSONSearch
+
+PrintOutput <|-- ex44
+
+class JSONSearch {
+initializeArray()
+searchArray()
+}
+
+@enduml

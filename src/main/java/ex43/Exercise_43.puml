@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+ex43 --|> WebsiteReader
+ex43 <|-- WebsiteReader
+
+"User Input" --|> ex43
+
+PrintOutput <|-- ex43
+
+class WebsiteReader {
+readAuthor()
+readSiteName()
+readJavaScript()
+readCSS()
+}
+
+@enduml
